@@ -1,0 +1,560 @@
+/*
+
+standard color template
+#2B2D42 gunmetal
+#6290C3 silver lake blue
+#E5F2FF bubbles very light white light blue
+#C2E7DA columbia blue
+#F1FFE7 Honeydew
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+.head_section{
+  width: 100vw;
+  height: 100vh;
+  background-color: #2B2D42;
+  color: white;
+}
+.hello_block_art{
+  display: inline-block;
+  position: absolute;
+  width: 70%;
+  height: 30%;
+  top: 25%;
+  left: 15%;
+  opacity: 0;
+  animation-name: hello_blocks;
+  animation-duration: 13.5s;
+}
+.block{
+  display: inline-block;
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  background-color: white;
+}
+
+.block1{
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+.block2{
+  left: 15%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+.block3{
+  left: 25%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.5s;
+  animation-delay: 2.4s;
+  animation-fill-mode: backwards;
+}
+.block4{
+  left: 30%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1s;
+  animation-delay: .2;
+  animation-fill-mode: backwards;
+}
+.block5{
+  left: 35%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.4s;
+  animation-delay: 4.4s;
+  animation-fill-mode: backwards;
+}
+.block6{
+  left: 45%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.8s;
+  animation-delay: .4s;
+  animation-fill-mode: backwards;
+}
+.block7{
+  left: 50%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.6s;
+  animation-delay: 2.8s;
+  animation-fill-mode: backwards;
+}
+.block8{
+  left: 55%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+.block9{
+  left: 65%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.9s;
+  animation-delay: 1.2s;
+  animation-fill-mode: backwards;
+}
+.block10{
+  left: 70%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.8s;
+  animation-delay: 3.2s;
+  animation-fill-mode: backwards;
+}
+.block11{
+  left: 75%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.3s;
+  animation-delay: .6s;
+  animation-fill-mode: backwards;
+}
+.block12{
+  left: 85%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 2s;
+  animation-delay: .8s;
+  animation-fill-mode: backwards;
+}
+.block13{
+  left: 90%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.7s;
+  animation-delay: 4.2s;
+  animation-fill-mode: backwards;
+}
+.block14{
+  left: 95%;
+  top: 100%;
+  animation-name: hello_blocks1;
+  animation-duration: 1.5s;
+  animation-delay: 1.6s;
+  animation-fill-mode: backwards;
+}
+.block15{
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1.9s;
+  animation-delay: 2.2s;
+  animation-fill-mode: backwards;
+}
+.block16{
+  left: 15%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 2s;
+  animation-delay: 1.8s;
+  animation-fill-mode: backwards;
+}
+.block17{
+  left: 25%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1s;
+  animation-delay: 3.8s;
+  animation-fill-mode: backwards;
+}
+.block18{
+  left: 45%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1.4s;
+  animation-delay: 1.4s;
+  animation-fill-mode: backwards;
+}
+.block19{
+  left: 65%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1.7s;
+  animation-delay: 3.4s;
+  animation-fill-mode: backwards;
+}
+.block20{
+  left: 85%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1.6s;
+  animation-delay: 2.6s;
+  animation-fill-mode: backwards;
+}
+.block21{
+  left: 95%;
+  top: 80%;
+  animation-name: hello_blocks2;
+  animation-duration: 1.3s;
+  animation-delay: 4.8s;
+  animation-fill-mode: backwards;
+}
+.block22{
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+}
+.block23{
+  left: 15%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.2s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+}
+.block24{
+  left: 25%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.4s;
+  animation-delay: 4.6s;
+  animation-fill-mode: backwards;
+}
+.block25{
+  left: 30%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.6s;
+  animation-delay: 5.2s;
+  animation-fill-mode: backwards;
+}
+.block26{
+  left: 45%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.5s;
+  animation-delay: 3.6s;
+  animation-fill-mode: backwards;
+}
+.block27{
+  left: 65%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.9s;
+  animation-delay: 5.6s;
+  animation-fill-mode: backwards;
+}
+.block28{
+  left: 85%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: backwards;
+}
+.block29{
+  left: 95%;
+  top: 60%;
+  animation-name: hello_blocks3;
+  animation-duration: 1.8s;
+  animation-delay: 6.4s;
+  animation-fill-mode: backwards;
+}
+.block30{
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.7s;
+  animation-delay: 5.8s;
+  animation-fill-mode: backwards;
+}
+.block31{
+  left: 5%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 2s;
+  animation-delay: 6.2s;
+  animation-fill-mode: backwards;
+}
+.block32{
+  left: 10%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.2s;
+  animation-delay: 7.6s;
+  animation-fill-mode: backwards;
+}
+.block33{
+  left: 15%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.1s;
+  animation-delay: 4.2s;
+  animation-fill-mode: backwards;
+}
+.block34{
+  left: 25%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.1s;
+  animation-delay: 6.8s;
+  animation-fill-mode: backwards;
+}
+.block35{
+  left: 45%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.3s;
+  animation-delay: 5.4s;
+  animation-fill-mode: backwards;
+}
+.block36{
+  left: 65%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.7s;
+  animation-delay: 6s;
+  animation-fill-mode: backwards;
+}
+.block37{
+  left: 85%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.6s;
+  animation-delay: 7.2s;
+  animation-fill-mode: backwards;
+}
+.block38{
+  left: 95%;
+  top: 40%;
+  animation-name: hello_blocks4;
+  animation-duration: 1.2s;
+  animation-delay: 8s;
+  animation-fill-mode: backwards;
+}
+.block39{
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 2s;
+  animation-delay: 7.4s;
+  animation-fill-mode: backwards;
+}
+.block40{
+  left: 15%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 2s;
+  animation-delay: 6.6s;
+  animation-fill-mode: backwards;
+}
+.block41{
+  left: 25%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1.1s;
+  animation-delay: 8.2s;
+  animation-fill-mode: backwards;
+}
+.block42{
+  left: 30%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1.4s;
+  animation-delay: 8.6s;
+  animation-fill-mode: backwards;
+}
+.block43{
+  left: 35%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1.6s;
+  animation-delay: 9.4s;
+  animation-fill-mode: backwards;
+}
+.block44{
+  left: 45%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1s;
+  animation-delay: 9.6s;
+  animation-fill-mode: backwards;
+}
+.block45{
+  left: 65%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1.7s;
+  animation-delay: 9.2s;
+  animation-fill-mode: backwards;
+}
+.block46{
+  left: 85%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1.9s;
+  animation-delay: 7.8s;
+  animation-fill-mode: backwards;
+}
+.block47{
+  left: 90%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 1s;
+  animation-delay: 9s;
+  animation-fill-mode: backwards;
+}
+.block48{
+  left: 95%;
+  top: 20%;
+  animation-name: hello_blocks5;
+  animation-duration: 2s;
+  animation-delay: 7s;
+  animation-fill-mode: backwards;
+}
+.block49{
+
+  animation-name: hello_blocks6;
+  animation-duration: 1.3s;
+  animation-delay: 8.8s;
+  animation-fill-mode: backwards;
+}
+.block50{
+
+  left: 15%;
+  animation-name: hello_blocks6;
+  animation-duration: 1.4s;
+  animation-delay: 8.4s;
+  animation-fill-mode: backwards;
+}
+.block51{
+
+  top: -20%;
+  animation-name: hello_blocks7;
+  animation-duration: 1.8s;
+  animation-delay: 9.8s;
+  animation-fill-mode: backwards;
+}
+.block52{
+
+  top: -20%;
+  left: 15%;
+  animation-name: hello_blocks7;
+  animation-duration: 1.6s;
+  animation-delay: 10s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes hello_blocks7 {
+  0%{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks6 {
+  0%{
+    opacity: 0;
+    transform: translateY(-130px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks5 {
+  0%{
+    opacity: 0;
+    transform: translateY(-160px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks4 {
+  0%{
+    opacity: 0;
+    transform: translateY(-190px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks3 {
+  0%{
+    opacity: 0;
+    transform: translateY(-220px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks2 {
+  0%{
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks1 {
+  0%{
+    opacity: 0;
+    transform: translateY(-280px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes hello_blocks {
+  0%{
+    opacity: 0;
+  }
+  5%{
+    opacity: 1;
+  }
+  95%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+.education_section{
+  width: 100vw;
+  height: 100vh;
+  background-color: #E5F2FF;
+  color: black;
+}
+
+.skills_section{
+  width: 100vw;
+  height: 100vh;
+  background-color: #6290C3;
+  color: black;
+}
